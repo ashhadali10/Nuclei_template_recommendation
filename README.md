@@ -1,11 +1,3 @@
-Perfect 👍
-Below is a **human-written, simple, honest README** you can directly put in your GitHub repo.
-It clearly explains **what the tool does**, **how it works**, **current limitations (accuracy)**, and **future goals** — which is very important for a real portfolio.
-
-You can copy-paste this as `README.md`.
-
----
-
 # 🧠 AI-Powered Nuclei Template Recommendation Tool
 
 This project is an **experimental security automation tool** that helps in **selecting relevant Nuclei templates** for a target based on its **technology stack**.
@@ -14,9 +6,7 @@ The main goal of this tool is **not to run Nuclei**, but to **recommend which te
 
 This project is still **under active improvement**, especially around **accuracy**, but the **overall flow and process are working correctly**.
 
----
-
-## 🚀 Why I Built This
+Why I Built This
 
 When using Nuclei, there are **10,000+ templates**, and running all of them is:
 
