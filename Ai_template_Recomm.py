@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-AI-Powered Nuclei Template Recommender v7 (Polished)
+AI-Powered Nuclei Template Recommended
 Author: Ashhad Ali
-Usage: python3 Ai_template_Recomm.py -d relocity.com
+Usage: python3 Ai_template_Recomm.py -d domain.com
 
 Requirements:
   - ollama pull phi3:mini
@@ -17,8 +17,8 @@ import sys
 from pathlib import Path
 
 # ================= CONFIG =================
-BASE_DIR = Path("/home/ashhad/bugbounty/automation_script/output")
-TEMPLATE_JSON = Path("/home/ashhad/bugbounty/automation_script/templates_index.json")
+BASE_DIR = Path("/home/automation_script/output")
+TEMPLATE_JSON = Path("/home/automation_script/templates_index.json")
 
 MODELS = ["phi3:mini", "qwen2.5-coder"]
 
@@ -275,7 +275,7 @@ def final_ai_select(candidates, tech_blob, model):
 # ---------------- MAIN ----------------
 
 def main(domain):
-    print(f"🎯 Target: {domain}")
+    print(f" Target: {domain}")
 
     vulns_dir = BASE_DIR / domain / "vulns"
     vulns_dir.mkdir(parents=True, exist_ok=True)
@@ -342,7 +342,7 @@ def main(domain):
     output = vulns_dir / "ai_recommended_templates.txt"
     output.write_text("\n".join(final))
 
-    print("\n🏆 FINAL RECOMMENDATIONS:")
+    print("\n FINAL RECOMMENDATIONS:")
     for t in final:
         print(f"- {t}")
 
