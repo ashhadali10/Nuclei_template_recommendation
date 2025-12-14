@@ -1,4 +1,4 @@
-# AI-Powered Nuclei Template Recommendation Tool
+# AI-Powered Nuclei Template Recommendation Tool for Application Security & Vulnerability Assessment
 
 This project is an **experimental security automation tool** that helps in **selecting relevant Nuclei templates** for a target based on its **technology stack**.
 
@@ -84,7 +84,7 @@ ollama pull qwen2.5-coder
 ## How to Run
 
 ```bash
-python3 Ai_template_Recomm.py -d relocity.com
+python3 Ai_template_Recomm.py -d domain.com
 ```
 
 ### Example Output
