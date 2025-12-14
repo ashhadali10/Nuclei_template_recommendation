@@ -103,6 +103,10 @@ FINAL RECOMMENDATIONS:
 ...
 ```
 
+
+# Title (Image ka chota description)
+![Bug Screenshot](https://github.com/ashhadali10/Nuclei_template_recommendation/blob/main/result_image.png)
+
 ## Output Files
 
 For each target, results are saved in:
