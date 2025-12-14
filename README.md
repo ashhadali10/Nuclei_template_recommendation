@@ -104,7 +104,7 @@ FINAL RECOMMENDATIONS:
 ```
 
 
-# Title (Image ka chota description)
+# Title (result)
 ![Bug Screenshot](https://github.com/ashhadali10/Nuclei_template_recommendation/blob/main/result_image.png)
 
 ## Output Files
