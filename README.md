@@ -116,13 +116,6 @@ Important files:
 * `complete_Techstack.txt` → Clean extracted tech stack
 * `ai_recommended_templates.txt` → Final recommended templates
 
-
-## Current Limitations (Honest Part)
-
-* Accuracy is **not perfect yet**
-* AI recommendations sometimes include **generic templates**
-* Needs better **severity and confidence ranking**
-
 However:
 
 * The **process**
