@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Nuclei Template Recommendation Tool
+# AI-Powered Nuclei Template Recommendation Tool
 
 This project is an **experimental security automation tool** that helps in **selecting relevant Nuclei templates** for a target based on its **technology stack**.
 
@@ -90,7 +90,7 @@ python3 Ai_template_Recomm.py -d relocity.com
 ### Example Output
 
 ```
-Target: relocity.com
+Target: domain.com
 [+] Clean Tech Stack: cloudflare, cms, csp, hsts, hubspot, jquery
 [+] Total Templates: 11753
 [+] Templates after logic filter: 260
@@ -120,7 +120,6 @@ Important files:
 ## Current Limitations (Honest Part)
 
 * Accuracy is **not perfect yet**
-* Tech extraction still contains some **noise**
 * AI recommendations sometimes include **generic templates**
 * Needs better **severity and confidence ranking**
 
