@@ -6,7 +6,7 @@ The main goal of this tool is **not to run Nuclei**, but to **recommend which te
 
 This project is still **under active improvement**, especially around **accuracy**, but the **overall flow and process are working correctly**.
 
-Why I Built This
+# Why I Built This
 
 When using Nuclei, there are **10,000+ templates**, and running all of them is:
 
@@ -23,9 +23,7 @@ I wanted a way to:
 
 This tool is my attempt to solve that problem.
 
----
-
-## 🔍 What This Tool Does
+##  What This Tool Does
 
 1. Takes a **domain** as input
 2. Uses recon tools (httpx, wafw00f, headers, etc.)
@@ -37,9 +35,7 @@ This tool is my attempt to solve that problem.
 
 You run Nuclei yourself later with those templates.
 
----
-
-## 🛠 Technologies Used
+## Technologies Used
 
 * **Python 3**
 * **Nuclei templates**
@@ -59,14 +55,14 @@ Everything runs **locally**, no paid APIs.
 
 ## 📦 Installation
 
-### 1️⃣ Clone the repo
+###  Clone the repo
 
 ```bash
 git clone https://github.com/ashhadali10/Nuclei_template_recommendation.git
 cd Nuclei_template_recommendation
 ```
 
-### 2️⃣ Requirements
+### Requirements
 
 Make sure these tools are installed:
 
@@ -85,7 +81,7 @@ ollama pull qwen2.5-coder
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python3 Ai_template_Recomm.py -d relocity.com
@@ -94,22 +90,20 @@ python3 Ai_template_Recomm.py -d relocity.com
 ### Example Output
 
 ```
-🎯 Target: relocity.com
+Target: relocity.com
 [+] Clean Tech Stack: cloudflare, cms, csp, hsts, hubspot, jquery
 [+] Total Templates: 11753
 [+] Templates after logic filter: 260
 [+] AI Candidates: 83
 
-🏆 FINAL RECOMMENDATIONS:
+FINAL RECOMMENDATIONS:
 - ./http/misconfiguration/weak-csp-detect.yaml
 - ./dast/vulnerabilities/xss/csp-bypass/cloudflare-challenges-csp-bypass.yaml
 - ./dast/vulnerabilities/xss/csp-bypass/googleapis-blogger-csp-bypass.yaml
 ...
 ```
 
----
-
-## 📂 Output Files
+## Output Files
 
 For each target, results are saved in:
 
@@ -122,9 +116,8 @@ Important files:
 * `complete_Techstack.txt` → Clean extracted tech stack
 * `ai_recommended_templates.txt` → Final recommended templates
 
----
 
-## ⚠️ Current Limitations (Honest Part)
+## Current Limitations (Honest Part)
 
 * Accuracy is **not perfect yet**
 * Tech extraction still contains some **noise**
@@ -140,9 +133,8 @@ However:
 
 This project is focused on **learning, experimentation, and improvement**.
 
----
 
-## 🧪 What I Am Actively Improving
+## What I Am Actively Improving
 
 * Better tech stack extraction (languages, frameworks, versions)
 * Smarter stop-word filtering
@@ -151,9 +143,9 @@ This project is focused on **learning, experimentation, and improvement**.
 * Reduced false positives
 * Better AI prompts
 
----
 
-## 🎯 Future Ideas
+
+##  Future Ideas
 
 * Auto-group templates by category (CVE, misconfig, exposure)
 * WAF-aware template selection
@@ -161,9 +153,8 @@ This project is focused on **learning, experimentation, and improvement**.
 * Explain **why** a template was selected
 * Streaming mode for large targets
 
----
 
-## 👨‍💻 About Me
+## About Me
 
 I am actively learning and building tools in:
 
@@ -172,25 +163,10 @@ I am actively learning and building tools in:
 * DevSecOps
 * AI-assisted security workflows
 
-This project is part of my **public learning journey and portfolio**.
 
----
-
-## ⭐ Final Note
+## Final Note
 
 This is **not a finished product**.
 This is a **working prototype with real logic**, built to learn and improve.
 
 Feedback, ideas, and improvements are always welcome.
-
----
-
-If you want, next I can help you with:
-
-* 📌 GitHub project description (short bio)
-* 📌 Repository tags
-* 📌 Demo screenshots section
-* 📌 How to explain this in interviews
-* 📌 Accuracy improvement roadmap
-
-Just tell me 👍
