@@ -53,7 +53,7 @@ Everything runs **locally**, no paid APIs.
 
 ---
 
-## 📦 Installation
+## Installation
 
 ###  Clone the repo
 
@@ -104,7 +104,7 @@ FINAL RECOMMENDATIONS:
 ```
 
 
-# Title (result)
+# Result
 ![Bug Screenshot](https://github.com/ashhadali10/Nuclei_template_recommendation/blob/main/result_image.png)
 
 ## Output Files
